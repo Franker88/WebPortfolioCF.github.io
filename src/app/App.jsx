@@ -1,17 +1,22 @@
+import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "../routes/home/Home";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "../components/layout/Layout";
+import { Home } from "../routes/home/Home";
+import { NotFound } from "../routes/notfound/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </Layout>
-    </BrowserRouter>
+    <React.Fragment>
+      <HashRouter>
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Layout>
+      </HashRouter>
+    </React.Fragment>
   );
 }
 
