@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+:root {
+  --cromcolor-1: #0e1f57;
+  --cromcolor-2: #0e3a54;
+  --cromcolor-3: #0e2d56;
+  --cromfont-1: #e0cfbf;
+  --cromfont-2: #e3d4cc;
+  --header-title-font: "Rowdies", cursive;
+}
+
+.Header {
+  position: relative;
+  display: grid;
+  background: linear-gradient(
+    to bottom,
+    var(--cromcolor-2),
+    var(--cromcolor-1)
+  );
+  height: 50px;
+  width: 100%;
+  grid-template-columns: 44% 15% 20% 17%;
+  align-items: center;
+}
+
+.PortfolioTitle {
+  width: 100%;
+  height: auto;
+  margin-left: 5px;
+  font-size: 1.3rem;
+  background-image: linear-gradient(#ece147, #ad680e);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--header-title-font);
+  font-style: italic;
+}
+
+.PortfolioTitle > span {
+  cursor: pointer;
+}
+
+.HeaderButton {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Rowdies", cursive;
+  font-style: bold;
+  font-size: 14px;
+  justify-self: center;
+  color: var(--cromfont-2);
+  border-left: 2px solid rgb(211, 203, 203);
+  transform: skew(-20deg);
+  cursor: pointer;
+  overflow: visible;
+  transition: font-size 0.5s;
+}
+
+.HeaderButton:hover {
+  border-left: 2px solid rgb(110, 135, 180);
+}
+
+.HomeSpan {
+  text-decoration: none;
+  color: var(--cromfont-2);
+}
+
+.DiplomaSpan {
+  text-decoration: none;
+  color: var(--cromfont-2);
+}
+
+.ProjectsSpan {
+  text-decoration: none;
+  color: var(--cromfont-2);
+}
+
+.ProjectsButton {
+  margin-left: 6px;
+}
+
+@media screen and (min-width: 600px) {
+  .Header {
+    grid-template-columns: 70% 10% 10% 8%;
+  }
+
+  .PortfolioTitle {
+    font-size: 2rem;
+  }
+
+  .HeaderButton:hover {
+    font-size: 18px;
+  }
+}
