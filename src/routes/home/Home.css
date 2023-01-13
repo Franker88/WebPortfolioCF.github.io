@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap");
+
+.Home-Hero {
+  border-top: 2px solid rgb(4, 93, 177);
+  margin: 30px 0px;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  opacity: 1;
+  background: linear-gradient(
+    to top,
+    rgb(222, 239, 255) 40%,
+    rgb(150, 216, 255) 40%
+  );
+}
+
+.HeroImg {
+  animation-name: appearing-1;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.Hero-resume {
+  font-family: "Merriweather", serif;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  grid-template-rows: 10% 90%;
+}
+
+.Resume-title {
+  margin-top: 80px;
+}
+
+.Resume-card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 300px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.61);
+  border-top: 1px solid rgb(40, 42, 189);
+  border-left: 1px solid rgb(40, 42, 189);
+  border-right: 2px solid rgb(17, 18, 87);
+  border-bottom: 2px solid rgb(17, 18, 87);
+  border-radius: 0px 50px 0 0;
+  backdrop-filter: blur(14px);
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 650px) {
+  .HeroImg {
+    transition: width 1s, height 1s;
+    box-shadow: 1px 1px 20px 2px rgba(41, 41, 41, 0.568),
+      1px 1px 20px 2px rgba(80, 80, 80, 0.568);
+  }
+
+  .HeroImg:hover {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Hero-resume {
+    width: 100%;
+    height: 100%;
+  }
+
+  @keyframes appearing-1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .Home-Hero {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+  }
+
+  .Hero-resume {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .Resume-title {
+    margin-left: -200px;
+    font-size: 40px;
+    margin-top: 120px;
+  }
+
+  .Hero-divider {
+    width: 60px;
+    height: 100%;
+    transform: skew(-5deg);
+    background-color: rgb(243, 239, 233);
+    position: absolute;
+    top: 0;
+    right: 260px;
+    z-index: 2;
+  }
+
+  .HeroImg {
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    border-radius: 0px;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .Resume-card {
+    width: 60%;
+    margin-left: -40px;
+    margin-top: 30px;
+  }
+
+  @keyframes appearing-1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.85;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Home-Hero {
+    height: 650px;
+  }
+
+  .HeroImg {
+    width: 480px;
+  }
+
+  .Resume-title {
+    margin-left: -120px;
+    width: 60%;
+    border-bottom: 1px solid rgb(3, 0, 15);
+    font-size: 40px;
+  }
+
+  .Resume-card {
+    height: auto;
+    font-size: 24px;
+    margin-left: -100px;
+    width: 60%;
+  }
+
+  .Hero-divider {
+    right: 450px;
+  }
+}

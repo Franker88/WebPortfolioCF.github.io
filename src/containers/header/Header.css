@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
-
-:root {
-  --cromcolor-1: #0e1f57;
-  --cromcolor-2: #0e3a54;
-  --cromcolor-3: #0e2d56;
-  --cromfont-1: #e0cfbf;
-  --cromfont-2: #e3d4cc;
-  --header-title-font: "Rowdies", cursive;
-}
+@import "../../_vars.css";
 
 .Header {
   position: relative;
@@ -49,7 +41,7 @@
   height: 100%;
   font-family: "Rowdies", cursive;
   font-style: bold;
-  font-size: 14px;
+  font-size: 12px;
   justify-self: center;
   color: var(--cromfont-2);
   border-left: 2px solid rgb(211, 203, 203);
@@ -74,12 +66,15 @@
 }
 
 .ProjectsSpan {
+  position: absolute;
   text-decoration: none;
   color: var(--cromfont-2);
+  left: 4px;
 }
 
 .ProjectsButton {
-  margin-left: 6px;
+  position: relative;
+  margin-left: 2px;
 }
 
 @media screen and (min-width: 600px) {
@@ -93,5 +88,11 @@
 
   .HeaderButton:hover {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .HeaderButton {
+    font-size: 14px;
   }
 }
