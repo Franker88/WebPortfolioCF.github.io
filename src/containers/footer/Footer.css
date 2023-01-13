@@ -1,0 +1,43 @@
+@import "../../_vars.css";
+
+.Footer {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  background: linear-gradient(
+    to bottom,
+    var(--cromcolor-2),
+    var(--cromcolor-1)
+  );
+  color: var(--cromfont-2);
+  display: grid;
+  grid-template-rows: 4fr 2fr;
+  grid-template-columns: 90%;
+  justify-content: center;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Contact-section {
+  border-bottom: 2px solid rgb(228, 228, 228);
+  width: 100%;
+  display: grid;
+  place-content: center;
+  grid-template-columns: 45% 45%;
+  justify-self: center;
+}
+
+.Footer-info {
+  margin-top: -15px;
+  font-size: 0.8rem;
+}
+
+.Footer-anchor {
+  color: var(--cromfont-2);
+}
+
+@media screen and (min-width: 600px) {
+  .Contact-section {
+    grid-template-columns: 30% 40% 30%;
+  }
+}

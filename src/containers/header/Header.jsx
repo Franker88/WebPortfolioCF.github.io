@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [title, setTitle] = useState("Web Portfolio");
+  const navigate = useNavigate();
 
   return (
     <header className="Header">
@@ -15,21 +16,21 @@ const Header = () => {
           {title}
         </span>
       </div>
-      <Link to="/" className="HeaderButton HomeSpan">
-        <div className="HomeButton">
-          <span>Home</span>
-        </div>
-      </Link>
-      <Link to="/diplomas" className="HeaderButton DiplomaSpan">
-        <div className="DiplomaButton">
-          <span>Diplomas</span>
-        </div>
-      </Link>
-      <Link to="/projects" className="HeaderButton ProjectsSpan">
-        <div className="ProjectsButton">
-          <span>Projects</span>
-        </div>
-      </Link>
+      <div className="HeaderButton HomeButton" onClick={() => navigate("/")}>
+        <span className="HomeSpan">Home</span>
+      </div>
+      <div
+        className=" HeaderButton DiplomaButton"
+        onClick={() => navigate("/diplomas")}
+      >
+        <span className="DiplomaSpan">Diplomas</span>
+      </div>
+      <div
+        className="HeaderButton ProjectsButton"
+        onClick={() => navigate("/projects")}
+      >
+        <span className="ProjectsSpan">Projects</span>
+      </div>
     </header>
   );
 };
