@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.8a3a0bf1.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.80c7b1b0.js",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.308d224f.css",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.bd75520a.js",
+    "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.8a3a0bf1.css.map": "/WebPortfolioCF.github.io/static/css/main.8a3a0bf1.css.map",
-    "main.80c7b1b0.js.map": "/WebPortfolioCF.github.io/static/js/main.80c7b1b0.js.map"
+    "main.308d224f.css.map": "/WebPortfolioCF.github.io/static/css/main.308d224f.css.map",
+    "main.bd75520a.js.map": "/WebPortfolioCF.github.io/static/js/main.bd75520a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a3a0bf1.css",
-    "static/js/main.80c7b1b0.js"
+    "static/css/main.308d224f.css",
+    "static/js/main.bd75520a.js"
   ]
 }
