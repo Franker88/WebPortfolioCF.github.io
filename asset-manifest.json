@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WebPortfolioCF.github.io/static/css/main.308d224f.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.bd75520a.js",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.3edd6127.js",
     "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
     "index.html": "/WebPortfolioCF.github.io/index.html",
     "main.308d224f.css.map": "/WebPortfolioCF.github.io/static/css/main.308d224f.css.map",
-    "main.bd75520a.js.map": "/WebPortfolioCF.github.io/static/js/main.bd75520a.js.map"
+    "main.3edd6127.js.map": "/WebPortfolioCF.github.io/static/js/main.3edd6127.js.map"
   },
   "entrypoints": [
     "static/css/main.308d224f.css",
-    "static/js/main.bd75520a.js"
+    "static/js/main.3edd6127.js"
   ]
 }
