@@ -2,7 +2,8 @@
 
 .Footer {
   width: 100%;
-  position: relative;
+  height: auto;
+  position: static;
   bottom: 0px;
   background: linear-gradient(
     to bottom,
