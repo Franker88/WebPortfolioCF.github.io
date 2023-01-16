@@ -79,14 +79,12 @@ const DevSkills = () => {
         <p className="Dev-paragraph">
           Sometimes, using PHP with these technologies, and MySQL as Data Base
           Manager. Secondly, I learned about C and C++ in the beginning of my
-          career, and then, learn about other languages like Python, where I'm
-          going to know how to use, for later, know about his paths: Data
-          Science or AI probably.
+          career, and then, know about other languages like Python.
         </p>
         <p className="Dev-paragraph">
           Also, I got some courses about Networking and Scrum Fundamentals. Now,
           I'm getting specialized in React's technology, precisely for Web
-          Development, After that i'm gonna study the Software development path.
+          Development.
         </p>
       </div>
     </div>
