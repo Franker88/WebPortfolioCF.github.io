@@ -31,7 +31,7 @@
   display: grid;
   place-items: center;
   position: absolute;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 10% 45% 45%;
 }
 
 .Resume-title {
@@ -44,9 +44,10 @@
   animation-iteration-count: 1;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 80%;
-  height: 300px;
+  height: auto;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.61);
   border-top: 1px solid rgb(40, 42, 189);
   border-left: 1px solid rgb(40, 42, 189);
@@ -74,6 +75,10 @@
     height: 100%;
   }
 
+  .Resume-card {
+    font-size: 12px;
+  }
+
   @keyframes appearing-1 {
     0% {
       opacity: 0;
@@ -99,7 +104,7 @@
   .Resume-title {
     margin-left: -200px;
     font-size: 40px;
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .Hero-divider {
@@ -157,7 +162,7 @@
 
   .Resume-card {
     height: auto;
-    font-size: 24px;
+    font-size: 20px;
     margin-left: -100px;
     width: 60%;
   }
