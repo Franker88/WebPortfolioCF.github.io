@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap");
+
+.DevSkills-container {
+  position: relative;
+}
+
+.Img-container {
+  overflow: hidden;
+}
+
+.Img-boxes {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  overflow: hidden;
+  background-color: rgb(222, 239, 255);
+}
+
+.Skill-img {
+  place-self: center;
+  margin-top: 5px;
+  width: 80%;
+  height: 256px;
+}
+
+.Skill-img.Prev {
+  animation-name: prev-img;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+.Skill-img.Next {
+  animation-name: next-img;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+.Carousel-button {
+  position: absolute;
+}
+
+.Angle {
+  opacity: 0.8;
+  width: 30px;
+  height: 30px;
+  animation-name: angles;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: trasnform 1s;
+}
+
+.Button-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Carousel-button.Carousel-left {
+  margin-left: 10px;
+  left: 0;
+  top: 50%;
+}
+
+.Carousel-button.Carousel-right {
+  margin-right: 10px;
+  right: 0;
+  top: 50%;
+}
+
+.DevSkills-resume {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  font-family: "Merriweather", serif;
+  margin-left: 20px;
+  place-self: center;
+}
+
+.Dev-paragraph {
+  border-bottom: 1px solid rgb(10, 0, 26);
+  padding-bottom: 10px;
+}
+
+@keyframes angles {
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes next-img {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  10% {
+    transition: margin-right 0.5s;
+  }
+  100% {
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes prev-img {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    transition: margin-left 0.5s;
+  }
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .Img-container {
+    display: flex;
+  }
+
+  .DevSkills-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .First-divider {
+    position: absolute;
+  }
+
+  .Img-boxes {
+    background: transparent;
+  }
+}

@@ -1,0 +1,27 @@
+.Skills-container {
+  position: relative;
+  background: linear-gradient(
+    to top right,
+    rgb(222, 239, 255) 30%,
+    rgb(150, 216, 255) 30%,
+    rgb(222, 239, 255)
+  );
+  width: 100%;
+}
+
+.Soft-div {
+  position: relative;
+  height: 950px;
+}
+
+.Dev-div {
+  position: relative;
+  height: auto;
+}
+
+@media screen and (min-width: 650px) {
+  .Soft-div {
+    position: relative;
+    height: 560px;
+  }
+}
