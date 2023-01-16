@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.9e1b18ee.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.b65cc392.js",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.607f785b.css",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.420bd9eb.js",
     "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
     "static/media/reactlogo.png": "/WebPortfolioCF.github.io/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
     "static/media/pythonlogo.png": "/WebPortfolioCF.github.io/static/media/pythonlogo.82efb64f8698a267f8bf.png",
@@ -11,11 +11,11 @@
     "static/media/phplogo.png": "/WebPortfolioCF.github.io/static/media/phplogo.89e0a8bfa66ee6e68001.png",
     "static/media/css3logo.png": "/WebPortfolioCF.github.io/static/media/css3logo.d2811e5969760ef58072.png",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.9e1b18ee.css.map": "/WebPortfolioCF.github.io/static/css/main.9e1b18ee.css.map",
-    "main.b65cc392.js.map": "/WebPortfolioCF.github.io/static/js/main.b65cc392.js.map"
+    "main.607f785b.css.map": "/WebPortfolioCF.github.io/static/css/main.607f785b.css.map",
+    "main.420bd9eb.js.map": "/WebPortfolioCF.github.io/static/js/main.420bd9eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1b18ee.css",
-    "static/js/main.b65cc392.js"
+    "static/css/main.607f785b.css",
+    "static/js/main.420bd9eb.js"
   ]
 }
