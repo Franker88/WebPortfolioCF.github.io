@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.308d224f.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.3edd6127.js",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.9e1b18ee.css",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.b65cc392.js",
     "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
+    "static/media/reactlogo.png": "/WebPortfolioCF.github.io/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/pythonlogo.png": "/WebPortfolioCF.github.io/static/media/pythonlogo.82efb64f8698a267f8bf.png",
+    "static/media/mysqllogo.png": "/WebPortfolioCF.github.io/static/media/mysqllogo.67646295cd91e7a3920e.png",
+    "static/media/JavaScriptlogo.png": "/WebPortfolioCF.github.io/static/media/JavaScriptlogo.b22ac06a4a7f55eeb8f7.png",
+    "static/media/networklogo.png": "/WebPortfolioCF.github.io/static/media/networklogo.51c0c4f5e3285f3d490a.png",
+    "static/media/phplogo.png": "/WebPortfolioCF.github.io/static/media/phplogo.89e0a8bfa66ee6e68001.png",
+    "static/media/css3logo.png": "/WebPortfolioCF.github.io/static/media/css3logo.d2811e5969760ef58072.png",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.308d224f.css.map": "/WebPortfolioCF.github.io/static/css/main.308d224f.css.map",
-    "main.3edd6127.js.map": "/WebPortfolioCF.github.io/static/js/main.3edd6127.js.map"
+    "main.9e1b18ee.css.map": "/WebPortfolioCF.github.io/static/css/main.9e1b18ee.css.map",
+    "main.b65cc392.js.map": "/WebPortfolioCF.github.io/static/js/main.b65cc392.js.map"
   },
   "entrypoints": [
-    "static/css/main.308d224f.css",
-    "static/js/main.3edd6127.js"
+    "static/css/main.9e1b18ee.css",
+    "static/js/main.b65cc392.js"
   ]
 }
