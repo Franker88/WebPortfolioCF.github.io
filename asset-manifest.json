@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.d87a0bd0.css",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.e35392ed.css",
     "main.js": "/WebPortfolioCF.github.io/static/js/main.fb535590.js",
     "static/media/Videogames.png": "/WebPortfolioCF.github.io/static/media/Videogames.55c6fecf2f46b6ea723d.png",
     "static/media/CV_Carlos_Franco_ESP.pdf": "/WebPortfolioCF.github.io/static/media/CV_Carlos_Franco_ESP.9793fdb416d8e848f5cc.pdf",
@@ -19,11 +19,11 @@
     "static/media/phplogo.png": "/WebPortfolioCF.github.io/static/media/phplogo.89e0a8bfa66ee6e68001.png",
     "static/media/css3logo.png": "/WebPortfolioCF.github.io/static/media/css3logo.d2811e5969760ef58072.png",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.d87a0bd0.css.map": "/WebPortfolioCF.github.io/static/css/main.d87a0bd0.css.map",
+    "main.e35392ed.css.map": "/WebPortfolioCF.github.io/static/css/main.e35392ed.css.map",
     "main.fb535590.js.map": "/WebPortfolioCF.github.io/static/js/main.fb535590.js.map"
   },
   "entrypoints": [
-    "static/css/main.d87a0bd0.css",
+    "static/css/main.e35392ed.css",
     "static/js/main.fb535590.js"
   ]
 }
