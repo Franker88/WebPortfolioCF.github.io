@@ -3,7 +3,6 @@
 .Home-Hero {
   border-top: 2px solid rgb(4, 93, 177);
   width: 100%;
-  height: 450px;
   position: relative;
   opacity: 1;
   background: linear-gradient(
@@ -58,6 +57,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .Home-Hero {
+    height: 450px;
+  }
   .HeroImg {
     transition: width 1s, height 1s;
     box-shadow: 1px 1px 20px 2px rgba(41, 41, 41, 0.568),
@@ -92,6 +94,7 @@
   .Home-Hero {
     display: grid;
     grid-template-columns: 40% 20% 40%;
+    height: 550px;
   }
 
   .Hero-resume {
