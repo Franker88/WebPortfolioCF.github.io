@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.607f785b.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.420bd9eb.js",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.d87a0bd0.css",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.fb535590.js",
+    "static/media/Videogames.png": "/WebPortfolioCF.github.io/static/media/Videogames.55c6fecf2f46b6ea723d.png",
+    "static/media/CV_Carlos_Franco_ESP.pdf": "/WebPortfolioCF.github.io/static/media/CV_Carlos_Franco_ESP.9793fdb416d8e848f5cc.pdf",
+    "static/media/CV_Carlos_Franco_ENG.pdf": "/WebPortfolioCF.github.io/static/media/CV_Carlos_Franco_ENG.f41fe71a7c9e2d9cf071.pdf",
     "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
+    "static/media/logicandpuzzles.jpg": "/WebPortfolioCF.github.io/static/media/logicandpuzzles.702eb2e2c210f0a21be1.jpg",
     "static/media/reactlogo.png": "/WebPortfolioCF.github.io/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
     "static/media/pythonlogo.png": "/WebPortfolioCF.github.io/static/media/pythonlogo.82efb64f8698a267f8bf.png",
+    "static/media/Calistenic.jpg": "/WebPortfolioCF.github.io/static/media/Calistenic.1a6d40edc61c018efe0e.jpg",
     "static/media/mysqllogo.png": "/WebPortfolioCF.github.io/static/media/mysqllogo.67646295cd91e7a3920e.png",
+    "static/media/Literature.jpg": "/WebPortfolioCF.github.io/static/media/Literature.9a3c42e4e507a8e72ca7.jpg",
+    "static/media/MuayThai.jpg": "/WebPortfolioCF.github.io/static/media/MuayThai.7337f9e82e0482f5b1f9.jpg",
     "static/media/JavaScriptlogo.png": "/WebPortfolioCF.github.io/static/media/JavaScriptlogo.b22ac06a4a7f55eeb8f7.png",
     "static/media/networklogo.png": "/WebPortfolioCF.github.io/static/media/networklogo.51c0c4f5e3285f3d490a.png",
+    "static/media/sports.jpg": "/WebPortfolioCF.github.io/static/media/sports.f8e02680e8b9f39e81b3.jpg",
     "static/media/phplogo.png": "/WebPortfolioCF.github.io/static/media/phplogo.89e0a8bfa66ee6e68001.png",
     "static/media/css3logo.png": "/WebPortfolioCF.github.io/static/media/css3logo.d2811e5969760ef58072.png",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.607f785b.css.map": "/WebPortfolioCF.github.io/static/css/main.607f785b.css.map",
-    "main.420bd9eb.js.map": "/WebPortfolioCF.github.io/static/js/main.420bd9eb.js.map"
+    "main.d87a0bd0.css.map": "/WebPortfolioCF.github.io/static/css/main.d87a0bd0.css.map",
+    "main.fb535590.js.map": "/WebPortfolioCF.github.io/static/js/main.fb535590.js.map"
   },
   "entrypoints": [
-    "static/css/main.607f785b.css",
-    "static/js/main.420bd9eb.js"
+    "static/css/main.d87a0bd0.css",
+    "static/js/main.fb535590.js"
   ]
 }
