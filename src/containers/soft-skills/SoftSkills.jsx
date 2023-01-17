@@ -3,13 +3,13 @@ import "./SoftSkills.css";
 
 const mainSkills = [
   { title: "English", lvl: "70%", desc: "Great" },
-  { title: "Logic Reasoning", lvl: "90%", desc: "Excelent" },
-  { title: "Adaptability", lvl: "70%", desc: "Great" },
+  { title: "Logic Reasoning", lvl: "100%", desc: "Excelent" },
+  { title: "Adaptability", lvl: "90%", desc: "Excelent" },
   { title: "Portuguese", lvl: "35%", desc: "Good" },
   { title: "Drafting", lvl: "100%", desc: "Excelent" },
-  { title: "Numeric Reasoning", lvl: "70%", desc: "Great" },
-  { title: "Responsibility", lvl: "90%", desc: "Excelent" },
-  { title: "Efficiency", lvl: "80%", desc: "Great" },
+  { title: "Numeric Reasoning", lvl: "100%", desc: "Excelent" },
+  { title: "Responsibility", lvl: "100%", desc: "Excelent" },
+  { title: "Efficiency", lvl: "100%", desc: "Excelent" },
 ];
 
 const SoftSkills = () => {

@@ -2,7 +2,6 @@
 
 .Home-Hero {
   border-top: 2px solid rgb(4, 93, 177);
-  margin-top: 30px;
   width: 100%;
   height: 450px;
   position: relative;
@@ -76,7 +75,7 @@
   }
 
   .Resume-card {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   @keyframes appearing-1 {

@@ -1,0 +1,86 @@
+.CV-container {
+  position: sticky;
+  top: 60px;
+  left: 30px;
+  z-index: 10;
+  height: 0px;
+}
+
+.CV-Button {
+  opacity: 0.5;
+  cursor: pointer;
+  margin-left: 10px;
+  position: sticky;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(248, 248, 248),
+    rgb(180, 180, 180)
+  );
+  z-index: 5;
+  border-radius: 100px;
+  display: grid;
+  grid-auto-flow: 50% 50%;
+  place-content: center;
+  font-size: 0.8rem;
+  transition: transform 0.5s;
+}
+
+.CV-Button:hover {
+  transform: scale(1.2);
+}
+
+.CV-Button > h4 {
+  margin: 0;
+}
+
+.dl-icon {
+  place-self: center;
+}
+
+.Lang {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 50px;
+  margin-top: 0;
+  margin-left: 30px;
+  transition: opacity 0.5s;
+}
+
+.Lang.Hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Lang.Show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dl-language {
+  background: linear-gradient(to bottom, rgb(207, 207, 207), grey);
+  border: 1px solid black;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.dl-language:hover {
+  transform: scale(1.2);
+}
+
+.eng {
+  border-radius: 0 5px 0 0;
+}
+
+.esp {
+  border-radius: 0 0 5px 5px;
+}
+
+.download {
+  text-decoration: none;
+  color: black;
+}
