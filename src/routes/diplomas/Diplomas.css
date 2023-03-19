@@ -1,0 +1,121 @@
+@import url("../../_vars.css");
+
+.Diplomas-container {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Diplomas-section {
+  position: relative;
+  display: grid;
+  background: linear-gradient(
+    to bottom right,
+    rgb(197, 220, 240),
+    rgb(138, 185, 212),
+    rgb(94, 160, 190)
+  );
+  border-radius: 5px;
+  margin: 30px 20px 0 20px;
+  box-shadow: 5px 5px 12px rgba(56, 62, 99, 0.774);
+  height: 400px;
+}
+
+.More-diplomas {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 50%));
+}
+
+.Diploma-item {
+  height: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.Diploma {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+  text-shadow: 3px 3px 10px rgb(41, 41, 71);
+}
+
+.Diploma:hover {
+  font-size: 1.3rem;
+}
+
+.Diplomas-Title {
+  position: absolute;
+  top: 0px;
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+  padding-left: 20px;
+  border-bottom: 2px solid black;
+}
+
+.language-resume {
+  padding: 0px 30px;
+  margin-top: 70px;
+  text-align: left;
+}
+
+.language-img {
+  width: 100%;
+  height: 60%;
+}
+
+.development-resume {
+  margin: 70px 30px 0 30px;
+}
+
+.dev-images {
+  display: grid;
+  position: relative;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 50%));
+}
+
+.dev-img {
+  margin-top: 10px;
+  width: 80%;
+  height: 70%;
+  justify-self: center;
+}
+
+.Platzi-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  color: rgb(151, 201, 62);
+  background-color: rgb(18, 31, 61);
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.development-section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 50%));
+  height: 600px;
+}
+
+@media screen and (min-width: 667px) {
+  .development-section {
+    height: 400px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .dev-images {
+    grid-template-rows: 1fr;
+  }
+}

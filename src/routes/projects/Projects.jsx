@@ -1,7 +1,8 @@
 import React from "react";
+import "./Projects.css";
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return <div className="Projects">Projects</div>;
 };
 
 export { Projects };

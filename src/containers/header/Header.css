@@ -19,7 +19,7 @@
   width: 100%;
   height: auto;
   margin-left: 5px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background-image: linear-gradient(#ece147, #ad680e);
   background-size: 100%;
   background-clip: text;
@@ -94,5 +94,11 @@
 @media screen and (min-width: 650px) {
   .HeaderButton {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ProjectsSpan {
+    left: 20px;
   }
 }
