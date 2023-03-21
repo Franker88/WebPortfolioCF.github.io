@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/WebPortfolioCF.github.io/static/css/main.e35392ed.css",
-    "main.js": "/WebPortfolioCF.github.io/static/js/main.fb535590.js",
+    "main.css": "/WebPortfolioCF.github.io/static/css/main.18087261.css",
+    "main.js": "/WebPortfolioCF.github.io/static/js/main.87b0d951.js",
+    "static/media/Basico_Redes.jpg": "/WebPortfolioCF.github.io/static/media/Basico_Redes.c79f395556b063c85dde.jpg",
+    "static/media/CE_Redes.jpg": "/WebPortfolioCF.github.io/static/media/CE_Redes.5090625a3b03c8d61919.jpg",
+    "static/media/Udemy_Python.jpg": "/WebPortfolioCF.github.io/static/media/Udemy_Python.e82b3c714c63db332b44.jpg",
+    "static/media/Udemy_js.jpg": "/WebPortfolioCF.github.io/static/media/Udemy_js.c1cdafd91b30f81f2b5f.jpg",
+    "static/media/Udemy_css3.jpg": "/WebPortfolioCF.github.io/static/media/Udemy_css3.038d8a017c3384ff0be5.jpg",
+    "static/media/narsub.png": "/WebPortfolioCF.github.io/static/media/narsub.dfcd33549f366dcf7cc1.png",
+    "static/media/assist.png": "/WebPortfolioCF.github.io/static/media/assist.1c9625e45ac1ea0e006c.png",
     "static/media/Videogames.png": "/WebPortfolioCF.github.io/static/media/Videogames.55c6fecf2f46b6ea723d.png",
     "static/media/CV_Carlos_Franco_ESP.pdf": "/WebPortfolioCF.github.io/static/media/CV_Carlos_Franco_ESP.9793fdb416d8e848f5cc.pdf",
     "static/media/CV_Carlos_Franco_ENG.pdf": "/WebPortfolioCF.github.io/static/media/CV_Carlos_Franco_ENG.f41fe71a7c9e2d9cf071.pdf",
     "static/media/MainPhoto.jpg": "/WebPortfolioCF.github.io/static/media/MainPhoto.e70e031058a60f73c08a.jpg",
+    "static/media/gh-practices.png": "/WebPortfolioCF.github.io/static/media/gh-practices.170087ea2d68bc08f663.png",
+    "static/media/dev1.jpg": "/WebPortfolioCF.github.io/static/media/dev1.6174600207e16b6ff9cf.jpg",
     "static/media/logicandpuzzles.jpg": "/WebPortfolioCF.github.io/static/media/logicandpuzzles.702eb2e2c210f0a21be1.jpg",
+    "static/media/first-portfolio.png": "/WebPortfolioCF.github.io/static/media/first-portfolio.66448f67199bb7314e6f.png",
     "static/media/reactlogo.png": "/WebPortfolioCF.github.io/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/dev2.jpg": "/WebPortfolioCF.github.io/static/media/dev2.33c52dd44899c41a3aa7.jpg",
     "static/media/pythonlogo.png": "/WebPortfolioCF.github.io/static/media/pythonlogo.82efb64f8698a267f8bf.png",
+    "static/media/lenguaje.png": "/WebPortfolioCF.github.io/static/media/lenguaje.788edd69619ef1656db0.png",
     "static/media/Calistenic.jpg": "/WebPortfolioCF.github.io/static/media/Calistenic.1a6d40edc61c018efe0e.jpg",
     "static/media/mysqllogo.png": "/WebPortfolioCF.github.io/static/media/mysqllogo.67646295cd91e7a3920e.png",
     "static/media/Literature.jpg": "/WebPortfolioCF.github.io/static/media/Literature.9a3c42e4e507a8e72ca7.jpg",
+    "static/media/Scrum_fund.jpg": "/WebPortfolioCF.github.io/static/media/Scrum_fund.216f20f159ac41b9740f.jpg",
     "static/media/MuayThai.jpg": "/WebPortfolioCF.github.io/static/media/MuayThai.7337f9e82e0482f5b1f9.jpg",
     "static/media/JavaScriptlogo.png": "/WebPortfolioCF.github.io/static/media/JavaScriptlogo.b22ac06a4a7f55eeb8f7.png",
     "static/media/networklogo.png": "/WebPortfolioCF.github.io/static/media/networklogo.51c0c4f5e3285f3d490a.png",
@@ -19,11 +32,11 @@
     "static/media/phplogo.png": "/WebPortfolioCF.github.io/static/media/phplogo.89e0a8bfa66ee6e68001.png",
     "static/media/css3logo.png": "/WebPortfolioCF.github.io/static/media/css3logo.d2811e5969760ef58072.png",
     "index.html": "/WebPortfolioCF.github.io/index.html",
-    "main.e35392ed.css.map": "/WebPortfolioCF.github.io/static/css/main.e35392ed.css.map",
-    "main.fb535590.js.map": "/WebPortfolioCF.github.io/static/js/main.fb535590.js.map"
+    "main.18087261.css.map": "/WebPortfolioCF.github.io/static/css/main.18087261.css.map",
+    "main.87b0d951.js.map": "/WebPortfolioCF.github.io/static/js/main.87b0d951.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35392ed.css",
-    "static/js/main.fb535590.js"
+    "static/css/main.18087261.css",
+    "static/js/main.87b0d951.js"
   ]
 }
