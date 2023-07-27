@@ -11,6 +11,8 @@ import python from "./imgSkills/pythonlogo.png";
 import network from "./imgSkills/networklogo.png";
 import scrum from "./imgSkills/scrumlogo.png";
 import react from "./imgSkills/reactlogo.png";
+import angular from "./imgSkills/angularlogo.png";
+import flutter from "./imgSkills/flutterlogo.png";
 import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,6 +28,8 @@ const skillsList = [
   { title: "network", src: network },
   { title: "scrum", src: scrum },
   { title: "react", src: react },
+  { title: "angular", src: angular },
+  { title: "flutter", src: flutter },
 ];
 
 const DevSkills = () => {
@@ -84,7 +88,8 @@ const DevSkills = () => {
         <p className="Dev-paragraph">
           Also, I got some courses about Networking and Scrum Fundamentals. Now,
           I'm getting specialized in React's technology, precisely for Web
-          Development.
+          Development. And in my current work, I was learning about Angular in
+          web development and Flutter fr Mobile development
         </p>
       </div>
     </div>
