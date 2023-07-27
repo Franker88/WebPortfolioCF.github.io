@@ -92,30 +92,6 @@ const Projects = () => {
           );
         }
       })}
-      {/* <div className="Project-label">
-        <img src="" alt="" />
-        <div className="label-resume">
-          <div className="taskdec"></div>
-        </div>
-      </div>
-      <div className="Project-label">
-        <div className="label-resume">
-          <div className="taskdec"></div>
-        </div>
-        <img src="" alt="" />
-      </div>
-      <div className="Project-label">
-        <img src="" alt="" />
-        <div className="label-resume">
-          <div className="taskdec"></div>
-        </div>
-      </div>
-      <div className="Project-label">
-        <div className="label-resume">
-          <div className="taskdec"></div>
-        </div>
-        <img src="" alt="" />
-      </div> */}
     </section>
   );
 };

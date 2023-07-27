@@ -2,6 +2,7 @@ import assist from "../../assets/projects/assist.png";
 import firstP from "../../assets/projects/first-portfolio.png";
 import narsub from "../../assets/projects/narsub.png";
 import ghP from "../../assets/projects/gh-practices.png";
+import cdc from "../../assets/projects/credicard.png";
 
 const proyectos = [
   {
@@ -30,6 +31,15 @@ const proyectos = [
     gh_repo: "Private",
     page: "https://narsub.000webhostapp.com/",
     img: narsub,
+  },
+  {
+    name: "Credicard Web Proyects",
+    position: "Front-end",
+    time: "Current",
+    completed: "Current",
+    gh_repo: "Private",
+    page: "https://app.credicard.com.ve",
+    img: cdc,
   },
   {
     name: "Git-Hub Projects and Practices",
