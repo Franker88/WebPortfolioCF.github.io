@@ -3,6 +3,9 @@ import firstP from "../../assets/projects/first-portfolio.png";
 import narsub from "../../assets/projects/narsub.png";
 import ghP from "../../assets/projects/gh-practices.png";
 import cdc from "../../assets/projects/credicard.png";
+import sp from "../../assets/projects/servicepay.png";
+import pp from "../../assets/projects/pinpagos.png";
+import ppf from "../../assets/projects/ppfull.png";
 
 const proyectos = [
   {
@@ -40,6 +43,33 @@ const proyectos = [
     gh_repo: "Private",
     page: "https://app.credicard.com.ve",
     img: cdc,
+  },
+  {
+    name: "Servicepay Mobile",
+    position: "Mobile Developer",
+    time: "Current",
+    completed: "Last version",
+    gh_repo: "Private",
+    page: "No page",
+    img: sp,
+  },
+  {
+    name: "Pinpagos Mobile",
+    position: "Mobile Developer",
+    time: "Current",
+    completed: "last version",
+    gh_repo: "Private",
+    page: "No page",
+    img: pp,
+  },
+  {
+    name: "Pinpagos Full Payment",
+    position: "Mobile Developer",
+    time: "Current",
+    completed: "waiting",
+    gh_repo: "Private",
+    page: "No page",
+    img: ppf,
   },
   {
     name: "Git-Hub Projects and Practices",
